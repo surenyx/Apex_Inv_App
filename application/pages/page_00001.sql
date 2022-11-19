@@ -22,7 +22,7 @@ wwv_flow_api.create_page(
 ,p_page_is_public_y_n=>'Y'
 ,p_protection_level=>'C'
 ,p_last_updated_by=>'ADMIN'
-,p_last_upd_yyyymmddhh24miss=>'20221114083852'
+,p_last_upd_yyyymmddhh24miss=>'20221114085029'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(23018944850304250)
@@ -81,7 +81,7 @@ wwv_flow_api.create_card_action(
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(31074024289503521)
-,p_plug_name=>'ARAKALA'
+,p_plug_name=>unistr('ARAKALA \0622\0631\0627\06A9\0627\0644\0627')
 ,p_icon_css_classes=>'fa-shopping-cart'
 ,p_region_template_options=>'#DEFAULT#:t-HeroRegion--featured t-HeroRegion--centered:t-HeroRegion--iconsCircle'
 ,p_plug_template=>wwv_flow_api.id(22887462615303946)

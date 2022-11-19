@@ -22,7 +22,7 @@ wwv_flow_api.create_page(
 ,p_required_role=>wwv_flow_api.id(27307748632134410)
 ,p_protection_level=>'C'
 ,p_last_updated_by=>'ADMIN'
-,p_last_upd_yyyymmddhh24miss=>'20221107094005'
+,p_last_upd_yyyymmddhh24miss=>'20221114085053'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(23902201523692014)
@@ -146,7 +146,7 @@ wwv_flow_api.create_page_button(
 ,p_button_template_options=>'#DEFAULT#'
 ,p_button_template_id=>wwv_flow_api.id(22982101947304020)
 ,p_button_is_hot=>'Y'
-,p_button_image_alt=>unistr('\0627\06CC\062C\0627\062F \067E\0627\0631\0627\0645\062A\0631 \062C\062F\06CC\062F +')
+,p_button_image_alt=>unistr('\0627\06CC\062C\0627\062F \067E\0627\0631\0627\0645\062A\0631 \062C\062F\06CC\062F ')
 ,p_button_position=>'RIGHT_OF_IR_SEARCH_BAR'
 ,p_button_redirect_url=>'f?p=&APP_ID.:1051:&SESSION.::&DEBUG.:1051'
 );
