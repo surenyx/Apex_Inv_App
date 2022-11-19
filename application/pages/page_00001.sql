@@ -22,7 +22,7 @@ wwv_flow_api.create_page(
 ,p_page_is_public_y_n=>'Y'
 ,p_protection_level=>'C'
 ,p_last_updated_by=>'ADMIN'
-,p_last_upd_yyyymmddhh24miss=>'20221114085029'
+,p_last_upd_yyyymmddhh24miss=>'20221119103454'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(23018944850304250)
@@ -87,7 +87,9 @@ wwv_flow_api.create_page_plug(
 ,p_plug_template=>wwv_flow_api.id(22887462615303946)
 ,p_plug_display_sequence=>10
 ,p_include_in_reg_disp_sel_yn=>'Y'
-,p_plug_source=>unistr('\0628\0647 \0641\0631\0648\0634\06AF\0627\0647 \0645\0627 \062E\0648\0634 \0622\0645\062F\06CC\062F')
+,p_plug_source=>wwv_flow_string.join(wwv_flow_t_varchar2(
+unistr(' \0646\0633\062E\0647 \062A\0648\0633\0639\0647 \062F\0648\0645 \0646\0631\0645 \0627\0641\0632\0627\0631'),
+unistr('\0628\0647 \0641\0631\0648\0634\06AF\0627\0647 \0645\0627 \062E\0648\0634 \0622\0645\062F\06CC\062F')))
 ,p_plug_query_options=>'DERIVED_REPORT_COLUMNS'
 ,p_attribute_01=>'N'
 ,p_attribute_02=>'HTML'

@@ -14,7 +14,7 @@ wwv_flow_api.component_begin (
 wwv_flow_api.create_flow(
  p_id=>wwv_flow.g_flow_id
 ,p_owner=>nvl(wwv_flow_application_install.get_schema,'INVMGR')
-,p_name=>nvl(wwv_flow_application_install.get_application_name,unistr('\0645\062F\06CC\0631\06CC\062A \0627\0646\0628\0627\0631'))
+,p_name=>nvl(wwv_flow_application_install.get_application_name,unistr('\0645\062F\06CC\0631\06CC\062A \0627\0646\0628\0627\0631 \0646\0633\062E\0647 \062A\0648\0633\0639\0647'))
 ,p_alias=>nvl(wwv_flow_application_install.get_application_alias,'INVENTORY-MANAGEMENT')
 ,p_page_view_logging=>'YES'
 ,p_page_protection_enabled_y_n=>'Y'
@@ -39,7 +39,7 @@ wwv_flow_api.create_flow(
 ,p_public_user=>'APEX_PUBLIC_USER'
 ,p_proxy_server=>nvl(wwv_flow_application_install.get_proxy,'')
 ,p_no_proxy_domains=>nvl(wwv_flow_application_install.get_no_proxy_domains,'')
-,p_flow_version=>'Release 1.1'
+,p_flow_version=>'Beta 2.0'
 ,p_flow_status=>'AVAILABLE_W_EDIT_LINK'
 ,p_flow_unavailable_text=>'This application is currently unavailable at this time.'
 ,p_exact_substitutions_only=>'Y'
@@ -58,7 +58,7 @@ wwv_flow_api.create_flow(
 ,p_substitution_string_01=>'APP_NAME'
 ,p_substitution_value_01=>'INVENTORY MANAGEMENT'
 ,p_last_updated_by=>'ADMIN'
-,p_last_upd_yyyymmddhh24miss=>'20221114085053'
+,p_last_upd_yyyymmddhh24miss=>'20221119103614'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>3
 ,p_ui_type_name => null
